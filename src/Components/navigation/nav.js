@@ -1,4 +1,5 @@
 import './nav.css';
+import ab from './ablogo.png'
 
 function Navigator() {
     return (
@@ -8,7 +9,7 @@ function Navigator() {
             <nav>Contact</nav>
         </div>
         <div>
-              <img src='src\Components\navigation\android-chrome-512x512.png' alt='logo' />
+              <img src={ab} className='ablogo' alt='Andrew Busby logo' />
         </div></>
     )
 }
