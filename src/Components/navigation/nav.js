@@ -8,8 +8,8 @@ function Navigator() {
             <nav>Projects</nav>
             <nav>Contact</nav>
         </div>
-        <div>
-              <img src={ab} className='ablogo' alt='Andrew Busby logo' />
+        <div className='ablogo'>
+              <img src={ab} alt='Andrew Busby logo' />
         </div></>
     )
 }
