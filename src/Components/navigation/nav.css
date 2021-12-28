@@ -3,10 +3,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-size: 3.5rem;
+    font-size: 1.5rem;
 }
 
 .ablogo {
-    width: 15%;
-    background: url(ablogo.png);
+    background: url(ablogo.png) no-repeat;
 }
