@@ -1,0 +1,14 @@
+.about{
+    color: #aad;
+    width: 75%;
+    margin: auto;
+}
+
+.about h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.aboutme{
+    width: 75%;
+}
