@@ -1,5 +1,6 @@
 import './nav.css';
-import ab from './ablogo.png'
+import ab from './ablogo.png';
+import {BrowserRouter as Router, Route, NavLink} from "react-router-dom";
 
 function Navigator() {
     return (
@@ -7,9 +8,11 @@ function Navigator() {
         <div className='ablogo'>
               <img src={ab} alt='Andrew Busby logo' />
         </div>
-            <nav>About</nav>
-            <nav>Projects</nav>
-            <nav>Contact</nav>
+        <Router>
+            <NavLink exact to="/">About</NavLink>
+            <NavLink exact to ="/">Projects</NavLink>
+            <NavLink exact to="/">Contact</NavLink>
+        </Router>
         </div>
         </>
     )
