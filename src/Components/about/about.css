@@ -2,6 +2,8 @@
     color: #aad;
     width: 75%;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
 }
 
 .about h1{
@@ -11,5 +13,4 @@
 
 .aboutme{
     width: 75%;
-    line-height: 2;
 }
