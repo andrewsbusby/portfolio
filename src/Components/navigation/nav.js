@@ -1,12 +1,14 @@
 import './nav.css';
 import ab from './ablogo.png';
-import {BrowserRouter as Router, Route, NavLink} from "react-router-dom";
+import {BrowserRouter as Router, NavLink} from "react-router-dom";
 
 function Navigator() {
     return (
         <><div className='nav'>
         <div className='ablogo'>
+        
               <img src={ab} alt='Andrew Busby logo' />
+                        
         </div>
         <Router>
             <NavLink exact to="/">About</NavLink>
